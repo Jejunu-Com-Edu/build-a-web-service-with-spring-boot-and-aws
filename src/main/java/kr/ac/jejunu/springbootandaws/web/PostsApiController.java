@@ -33,4 +33,8 @@ public class PostsApiController {
         postsService.delete(id);
         return id;
     }
+
+    public void testMethod() {
+        System.out.println("test");
+    }
 }
